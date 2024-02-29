@@ -7,7 +7,10 @@ class Config(object):
     """Base Config Object"""
     DEBUG = True
     SECRET_KEY = os.environ.get('SECRET_KEY', 'Som3$ec5etK*y')
+<<<<<<< HEAD
     MAIL_SERVER = os.environ.get('MAIL_SERVER', 'localhost')
     MAIL_PORT = os.environ.get('MAIL_PORT', '25')
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
+=======
+>>>>>>> 663996931f8ccecfefc97b886865178a98ef0a03

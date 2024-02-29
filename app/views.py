@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 from app import mail
 from flask_mail import Message
+=======
+>>>>>>> 663996931f8ccecfefc97b886865178a98ef0a03
 from app import app
 from flask import render_template, request, redirect, url_for, flash
 
@@ -24,6 +27,7 @@ def about():
 # The functions below should be applicable to all Flask apps.
 ###
 
+<<<<<<< HEAD
 #620097123
 
 @app.route('/contact', methods=['GET', 'POST'])
@@ -36,6 +40,8 @@ def contact():
         message = form.message.data
         return redirect('/success')
     return render_template('contact.html', form=form)
+=======
+>>>>>>> 663996931f8ccecfefc97b886865178a98ef0a03
 
 # Flash errors from the form if validation fails
 def flash_errors(form):
